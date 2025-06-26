@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>غرر الحكم</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🕊️ غرر الحكم</h1>
+    <p id="quote" class="quote">جارٍ تحميل الحكمة...</p>
+    <div class="buttons">
+      <button onclick="showRandomQuote()">🔄 حكمة عشوائية</button>
+      <button onclick="saveFavorite()">⭐ أضف إلى المفضلة</button>
+      <button onclick="showFavorites()">📜 عرض المفضلة</button>
+    </div>
+    <div id="favorites" class="favorites" style="display: none;"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
